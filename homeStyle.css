@@ -129,11 +129,16 @@
     width: 100%;
     height: 30px;
 }
-#btn {
+#btn1 {
     display: none;
 }
+.deal {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
 .location {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 50vh;
     display: flex;
     justify-content: space-evenly;
@@ -211,6 +216,9 @@
     font-weight: bold;
     border: none;
 }
+.view-details {
+    border: 1px solid white;
+}
 .gif-container {
     width: 100%;
     display: flex;
@@ -254,7 +262,6 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     padding: 20px 0;
-
 }
 #comma {
     width: 40%;
@@ -274,6 +281,7 @@
 .data {
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid green; */
 }
 .data > div {
     display: flex;
@@ -283,6 +291,7 @@
 .profile-picture {
     width: 20%;
     border-radius: 50px;
+    /* border: 1px solid green; */
 }
 .data h3  {
     margin-left: 10px;
@@ -311,11 +320,15 @@
     height: 60vh;
 
 }
+/* .joining {
+    border: 1px solid red;
+} */
 .section4 {
     display: flex;
     justify-content: space-between;
     padding: 10vh 6vh;
     margin-top: 10%;
+    /* border: 1px solid red; */
 }
 .joining p {
     font-size: 2vh;
@@ -338,11 +351,15 @@
     flex-direction: column;
     justify-content: space-between;
     width: 40vw;
+    height: 40vh;
+    margin: auto;
     /* border: 1px solid red; */
 }
-.joining2 h3 {
-    width: 24vw;
-    font-size: 3vh;
+.joining2 .midME {
+    width: 60%;
+    font-size: 4vh;
+    /* border: 1px solid green; */
+    margin: auto;
 }
 .joining2 span {
     color : grey;
@@ -353,14 +370,16 @@
 }
 .address h6 {
     width: 18vw;
-    border: 1px solid red;
+    font-size: 12px;
+    /* border: 1px solid red; */
     margin-left: 8px;
 }
 .bottom {
     display: flex;
-    /* border: 1px solid red; */
+    border: 1px solid black;
     background-color: #000;
     justify-content: space-between;
+    align-items: center;
     color: white;
     padding: 20px 5%;
 }
@@ -375,36 +394,26 @@
 .bottom p {
     color : grey;
 }
-
-@keyframes effect {
-    0% {
-        /* background: linear-gradient(
-                white, #000000); */
-                color: white;
-        -webkit-background-clip: text;
-    }
-
-    50% {
-        /* background: linear-gradient(
-                black, #fff); */
-                color : yellow;
-        -webkit-background-clip: text;
-    }
-
-
-    100% {
-        /* background: linear-gradient(
-                black, #fff); */
-                color : white;
-        -webkit-background-clip: text;
-    }
+.bottom .logo2 {
+    height: 100px;
 }
 .slider a {
     animation: effect 0.5s linear infinite;
    }
+
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width: 1000px) and (min-width: 791px) {
     .home {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         /* width: 90%; */
         margin: auto;
         padding: 5px 0;
@@ -412,6 +421,14 @@
         justify-content: space-between;
         /* font-size: 10px;
         font-weight: bold; */
+    }
+    .container h1 {
+        font-size: 8vh !important;
+    }
+    .deal {
+        color: black;
+        text-align: center;
+        font-size: 30px;
     }
     .slider > div {
         height: 40vh;
@@ -430,7 +447,7 @@
    .slider > div {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    }
    .location h3 {
         font-size: 2.9vh;
@@ -442,19 +459,52 @@
    .left-child  {
     width: 100%;
    }
-   .joining2 h3 {
+   .joining2 .midME {
     width: 34vw;
     font-size: 4vh;
-}
+    }
+    .container h1 {
+        font-size: 40px !important;
+    }
+    .container h4 {
+        font-size: 25px !important;
+    }
+    /* .joining2 .address {
+        margin: auto;
+    } */
 }
 
-@media all and (max-width: 790px) and (min-width: 400px) {
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 790px) and (min-width: 601px) {
     #left, #right {
         display: none;
     }
+    .deal {
+        color: black;
+        text-align: center;
+        font-size: 25px;
+    }
+    .container h1 {
+        font-size: 40px !important;
+    }
+    .container h4 {
+        font-size: 25px !important;
+    }
     #btn1 {
-        background-color: white;
-        color: #000;
+        display: contents;
+        background-color: white !important;
+        color: black;
         padding: 8px 20px;
         text-decoration: none;
         font-size: 14px;
@@ -465,14 +515,12 @@
         background-color: transparent;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
-    #btn1 {
-        display: contents;
-    }
+    
     #hamburger {
         display: contents;
     }
     .home {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         /* width: 90%; */
         margin: auto;
         padding: 5px 0;
@@ -498,7 +546,7 @@
    .slider > div {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    }
    .location h3 {
         font-size: 2.9vh;
@@ -523,4 +571,462 @@
         height: 80%;
         width: 85%;
     }
+    .review {
+         margin-bottom: 20px;
+         /* border: 1px solid red; */
+         height: 60vh;
+         width: 80%;
+    }
+    .section4 h1 {
+        font-size: 35px;
+        margin-right: 20px;
+    }
+    .cont {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .cont p {
+        width: 60%;
+        /* text-align: center; */
+        margin: auto;
+        gap: 10px;
+    }
+ 
+    .address {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+        justify-content: center;
+        margin: auto;
+    }
+    .address h6 {
+        margin-bottom: 10px;
+    }
+    .btn {
+        width: 40%;
+    }
+    .slider img {
+        margin: auto;
+        width: 60% !important;
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 601px) and (min-width: 300px) {
+    #left, #right {
+        display: none;
+    }
+    .deal {
+        color: black;
+        text-align: center;
+        font-size: 23px;
+    }
+    .container h4 {
+        font-size: 25px !important;
+    }
+    #btn1 {
+        display: contents;
+        background-color: white !important;
+        color: black;
+        padding: 8px 20px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 20px;
+        /* border: 1px solid red; */
+    }
+    #btn1:hover {
+        background-color: transparent;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #hamburger {
+        display: contents;
+    }
+    .home {
+        /* border: 1px solid red; */
+        /* width: 90%; */
+        margin: auto;
+        padding: 5px 0;
+        display: flex;
+        justify-content: space-around;
+        /* font-size: 10px;
+        font-weight: bold; */
+    }
+    .slider > div {
+        height: 40vh;
+        width: 80% !important;
+        /* border: 1px solid red; */
+    }
+   .slider img {
+    margin: auto;
+    width: 80% !important;
+   }
+   .slider h2 {
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+   }
+   .slider a {
+    animation: effect 2s linear infinite;
+   }
+   .slider > div {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+   }
+   .location h3 {
+        font-size: 2.9vh;
+   }
+   .parent {
+    display: flex;
+    flex-direction: column;
+   }
+   .left-child  {
+    width: 100%;
+   }
+   .joining2 h3 {
+    width: 34vw;
+    font-size: 4vh;
+    }
+    .location {
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #fix {
+        height: 80%;
+        width: 85%;
+    }
+    .review {
+         margin-bottom: 20px;
+         /* border: 1px solid red; */
+         height: 60vh;
+         width: 80%;
+    }
+    .container h1 {
+        font-size: 40px !important;
+    }
+    .section4 h1 {
+        font-size: 35px;
+        margin-right: 20px;
+    }
+    .cont {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .cont p {
+        width: 60%;
+        /* text-align: center; */
+        margin: auto;
+        gap: 10px;
+    }
+    .address {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+    }
+    .address h6 {
+        margin-bottom: 10px;
+    }
+    .point1, .point2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    .point1 h1, .point2 h1 {
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .review-comment p {
+        font-size: 16px;
+    }
+    .btn {
+        width: 40%;
+    }
+    .gif-container > img {
+        width: 90%;
+        height: 70%;
+    }
+    .section4 {
+        flex-direction: column;
+        height: fit-content;
+        text-align: center;
+        /* margin: auto; */
+    }
+    .section4 input {
+        width: 40%;
+    }
+    .section4 ::placeholder {
+        text-align: center;
+    }
+    .joining2 {
+        margin: auto;
+    }
+    .joining2 h3 {
+        margin: auto;
+    }
+    .address {
+        margin: auto;
+    }
+    .book-now, .view-details {
+        padding: 7px 12px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+        border: 1px solid white;
+        
+    }
+    .address h6 {
+        margin: auto;
+        /* border: 1px solid red; */
+        width: 70%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .joining2 {
+        width: 90%;
+    }
+    .joining2 .midME {
+        display: flex;
+        justify-content: center ;
+        width: 100%;
+    }
+    .midME h3 {
+        width: 90% !important;
+        font-size: 25px !important;
+    }
+    .bottom p, .bottom a  {
+        font-size: 12px !important;
+        text-align: center;
+    }
+    /* .midME {
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 20px 0;
+    } */
+    /* .midME {
+        margin: auto;
+    } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 551px) and (min-width: 300px) {
+    #left, #right {
+        display: none;
+    }
+    #logo {
+        height: 60px;
+    }
+    #btn1 {
+        display: contents;
+        background-color: white !important;
+        color: black;
+        padding: 8px 20px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 20px;
+        /* border: 1px solid red; */
+    }
+    #btn1:hover {
+        background-color: transparent;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #hamburger {
+        display: contents;
+    }
+    .home {
+        /* border: 1px solid red; */
+        /* width: 90%; */
+        margin: auto;
+        padding: 5px 0;
+        display: flex;
+        justify-content: space-around;
+        /* font-size: 10px;
+        font-weight: bold; */
+    }
+    .slider > div {
+        height: 40vh;
+        width: 90vw;
+    }
+   .slider img {
+    margin: auto;
+   }
+   .slider h2 {
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+   }
+   .slider a {
+    animation: effect 2s linear infinite;
+   }
+   .slider > div {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+   }
+   .location h3 {
+        font-size: 2.9vh;
+   }
+   .parent {
+    display: flex;
+    flex-direction: column;
+   }
+   .left-child  {
+    width: 100%;
+   }
+   .joining2 h3 {
+    width: 34vw;
+    font-size: 4vh;
+    }
+    .location {
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #fix {
+        height: 80%;
+        width: 85%;
+    }
+    .review {
+         margin-bottom: 20px;
+         /* border: 1px solid red; */
+         height: 60vh;
+         width: 80%;
+    }
+    .section4 h1 {
+        font-size: 35px;
+        margin-right: 20px;
+    }
+    .cont {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .cont p {
+        width: 60%;
+        /* text-align: center; */
+        margin: auto;
+        gap: 10px;
+    }
+    .address {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+    }
+    .address h6 {
+        margin-bottom: 10px;
+    }
+    .point1, .point2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    .point1 h1, .point2 h1 {
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .review-comment p {
+        font-size: 16px;
+    }
+    .btn {
+        width: 40%;
+    }
+    .gif-container > img {
+        width: 90%;
+        height: 70%;
+    }
+    .section4 {
+        flex-direction: column;
+        height: fit-content;
+        text-align: center;
+        /* margin: auto; */
+    }
+    .section4 input {
+        width: 40%;
+    }
+    .section4 ::placeholder {
+        text-align: center;
+    }
+    .joining2 {
+        margin: auto;
+    }
+    .joining2 h3 {
+        margin: auto;
+    }
+    .address {
+        margin: auto;
+    }
+    .address h6 {
+        margin: auto;
+        /* border: 1px solid red; */
+        width: 70%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .joining2 .midME {
+        display: flex;
+        justify-content: center ;
+    }
+    
+    /* .midME {
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 20px 0;
+    } */
+    /* .midME {
+        margin: auto;
+    } */
 }
