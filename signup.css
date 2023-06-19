@@ -1,0 +1,187 @@
+body {
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url(images/bgImage1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    }
+    /* input {
+        border-radius: 7px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;        
+        text-align: center;
+    } */
+    .deco:hover {
+        background-color: transparent;
+        cursor: pointer;
+        color: black;
+    }
+    .logo {
+        transition: transform .2s;
+        cursor: pointer;
+    }
+    .logo:hover {
+        transform: scale(1.1)
+    }
+    .deco {
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .ano {
+        width: 60px;
+    }
+    .legend {
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 20px;
+        width: 100%;
+    }
+    fieldset {
+        border: 0px;
+    }
+    h1 {
+        text-align: center;
+    }
+    #container {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        /* height: 50vh; */
+        height: fit-content;
+        width: 40%;
+        padding: 40px 20px;
+        margin-top: 20px;
+        /* border: 1px solid red !important; */
+        /* position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%); */
+        /* border: 1px solid red; */
+    }
+    .legend{
+        text-align: center;
+    }
+    input {
+        height: 30px;
+        width: 63%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    img {
+        height: 90px;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 2.5vh;
+        background-color: white;
+        padding: 9px 14px;
+        border-radius: 20px;
+    }
+    a:hover {
+        background-color: transparent;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    span {
+        color: blueviolet;
+        text-decoration: underline;
+    }
+    .flex-me {
+        display: flex;
+        align-items: center;
+        /* border: 1px solid red; */
+        height: 70vh;
+        width: 80%;
+        margin: auto;
+    }
+    .welcome {
+        width: 60%;
+        color: white;
+        text-decoration: underline ;
+        text-shadow: 0px 17px 17px rgba(0, 0, 0, 1),12px -12px 25px rgba(0, 0, 0, 1);
+        font-family: 'Bangers', cursive;
+        font-size: 40px;
+    }
+
+
+
+
+    @media all and (max-width: 1035px) and (min-width: 790px) {
+        .welcome {
+            font-size: 25px;
+            width: 65%;
+        }
+        #container {
+            margin-top: 20px !important;
+            width: 40%;
+        }
+        .flex-me {
+            justify-content: space-between;
+            width: 90%;
+        }
+        input {
+            width: 50%;
+        }
+        .deco {
+            font-size: 10px;
+        }
+    }
+
+
+
+
+
+    @media all and (max-width:789px) and (min-width: 580px) {
+        .flex-me {
+            display: flex;
+            flex-direction: column;
+            height: fit-content !important;
+        }
+        .welcome {
+            text-align: center;
+            margin: auto;
+            font-size: 30px;
+        }
+        #container {
+            width: 60% !important;
+        }
+    }
+
+
+    @media all and (max-width:579px) and (min-width: 300px) {
+        .flex-me {
+            display: flex;
+            flex-direction: column;
+            height: fit-content !important;
+            width: 90% !important;
+        }
+        .welcome {
+            margin: auto;
+            font-size: 25px;
+        }
+        #container {
+            width: 60% !important;
+        }
+        .deco {
+            width: 70%;
+        }
+    }

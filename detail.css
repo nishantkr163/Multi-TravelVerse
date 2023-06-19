@@ -5,22 +5,28 @@
     font-family: "acumin-pro", sans-serif;
     /* border: 1px solid red; */
 }
-#btn1 {
-    background-color: white;
-    color: #000;
-    padding: 8px 20px;
-    text-decoration: none;
-    font-size: 14px;
-    border-radius: 20px;
+.dataData {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.dataData h1, .dataData h2, .dataData h4, .dataData a {
+    margin: auto;
 }
 .header {
     height: 100vh;
     /* width: 100%; */
-    background-image: url(images/bgimg2.jpg);
+    background-image: url(images/detailimg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* border: 1px solid red; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #text {
     color: white;
@@ -49,11 +55,7 @@
 }
 #logo {
     height: 20vh;
-    transition: transform .2s;
     /* border: 1px solid red; */
-}
-#logo:hover {
-    transform: scale(1.1)
 }
 .home li {
     list-style: none;
@@ -72,7 +74,6 @@
     text-decoration: none;
     font-size: 14px;
     border-radius: 20px;
-    transition: transform .2s;
     /* border: 1px solid red; */
 }
 .register:hover {
@@ -82,17 +83,15 @@
 .container {
     padding: 0 7%;
 }
-.header .container h1 {
-    font-size: 4vw;
+.slider h1 {
     font-weight: 600;
     color: white;
     text-align: center;
     /* padding-top: 2%; */
-    font-family: 'Lato', sans-serif;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Petrona', serif;
     text-shadow: 0px 17px 17px rgba(0, 0, 0, 1);    
 }
-.header .container h4 {
+.slider h2 {
     text-align: center;
     font-size: 2vw;
     color: white;
@@ -102,19 +101,28 @@
     text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .slider {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: fit-content;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Bangers', cursive;
+    border-radius: 20px;
+    padding: 20px;
 }
-.slider > div {
-    /* border: 1px solid red; */
-    height: 30vh;
-    width: 50vw;
-    margin: auto;
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-evenly;
-    }
+.slider a {
+    background-color: white;
+    padding: 9px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.slider a:hover {
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 #display {
     width: 40%;
     height: 100%;
@@ -191,11 +199,9 @@
     width: 70%;
     height: 100%;
     border-radius: 40px;
-    transition: transform .2s;
 }
 .location img:hover {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    transform: scale(1.1);
 }
 .section2 {
     background-color: black;
@@ -428,10 +434,6 @@
 }
 .bottom .logo2 {
     height: 100px;
-    transition: transform .2s;
-}
-.bottom .logo2:hover {
-    transform: scale(1.1)
 }
 
  .none {
@@ -550,7 +552,7 @@
 
 
 
-@media all and (max-width: 791px) and (min-width: 601px) {
+@media all and (max-width: 790px) and (min-width: 601px) {
     #left, #right {
         display: none;
     }
@@ -653,11 +655,6 @@
         height: 150vh;
         display: flex;
         flex-direction: column;
-        transition: transform .2s;
-    }
-    .location img:hover {
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-        transform: scale(1.1);
     }
     #fix {
         height: 80%;
@@ -840,11 +837,6 @@
         height: 150vh;
         display: flex;
         flex-direction: column;
-        transition: transform .2s;
-    }
-    .location img:hover {
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-        transform: scale(1.1);
     }
     #fix {
         height: 80%;
@@ -1077,11 +1069,6 @@
         height: 150vh;
         display: flex;
         flex-direction: column;
-        transition: transform .2s;
-    }
-    .location img:hover {
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-        transform: scale(1.1);
     }
     #fix {
         height: 80%;
@@ -1291,11 +1278,6 @@
         height: 150vh;
         display: flex;
         flex-direction: column;
-        transition: transform .2s;
-    }
-    .location img:hover {
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-        transform: scale(1.1);
     }
     #fix {
         height: 80%;

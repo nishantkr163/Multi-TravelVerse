@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <nav class="navigation">
+        <img onclick="gohome()" src="images/newLogo.png" class="logo" alt="">
+        <a href="login.html">Already Have an Account? <span>Login Here</span></a>
+    </nav>
+    <div class="flex-me">
+        <div>
+            <h1 class="welcome">Welcome To Multi-TravelVerse</h1>
+        </div>
+        <div id="container">
+            <form class="form">
+                <h3 class="legend">Enter Details:-</h3> <br><br>
+                <label for="Name">Name:</label>
+                <input placeholder="Enter Your Name" type="text" class="name"><br><br>
+                <label for="Email">Email Id:</label>
+                <input placeholder="Enter Your Email" type="email" class="email"><br><br>
+                <label for="password">Create new password:</label>
+                <input placeholder="Enter new password" type="password" class="pass"><br><br>
+                <label for="password">Confirm Password:</label>
+                <input placeholder="Confirm password again" type="password" class="pass2"><br><br>
+                <label for="phone">Phone no.:</label>
+                <input placeholder="Enter Your mobile no." type="number" class="phone"><br><br>
+                <label for="entry">Date of Birth:</label>
+                <input type="date" class="birth"><br><br>
+                <input class="deco" type="submit" value="Create New Account">
+            </form>
+    
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="signup.js"></script>
