@@ -33,6 +33,10 @@ Sign Up page
 Login Page
 ![Login page](https://i.ibb.co/BtTXXjf/login.png)
 
+
+Deployement
+Netlity: [https://vocal-kitten-2079e5.netlify.app/](https://vocal-kitten-2079e5.netlify.app/)
+
 Clone the repository: git clone [https://github.com/your-username/project-name.git](https://github.com/maniRhombuz/unnatural-throat-9914.git)
 Navigate to the project directory: cd project-name
 
