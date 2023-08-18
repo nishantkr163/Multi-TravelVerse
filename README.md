@@ -5,21 +5,28 @@ Welcome to the unnatural-throat-9914!. This project is individual project. This 
 Table of Contents
 Project Overview
 Features
-Installation
-Usage
-Contributing
-License
-Project Overview
-[Provide a concise description of the project, its purpose, and why it's valuable.]
 
 Features
-[List the key features or functionalities of the project.]
 
 1. Responsive
 2. Sign up
 3. Login
 
+Screeshots
+Landing Page(Hero Section)
+![Landing Page1](https://ibb.co/yXB2qh6)
 
+Landing Page(Mid section)
+![Landing Page2](https://ibb.co/S5TDj52)
+
+Landing Page(Bottom section)
+![Landing Page3](https://ibb.co/3k5c9T0)
+
+Sign Up page
+![Sign up](https://ibb.co/tP9137t)
+
+Login Page
+![Login page](https://ibb.co/nbQHHfw)
 
 Clone the repository: git clone [https://github.com/your-username/project-name.git](https://github.com/maniRhombuz/unnatural-throat-9914.git)
 Navigate to the project directory: cd project-name
