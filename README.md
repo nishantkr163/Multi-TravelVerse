@@ -19,19 +19,19 @@ Features
 
 Screeshots
 Landing Page(Hero Section)
-![Landing Page1](https://ibb.co/yXB2qh6)
+![Landing Page1](https://i.ibb.co/GTKqHyt/Landing-page.png)
 
 Landing Page(Mid section)
-![Landing Page2](https://ibb.co/S5TDj52)
+![Landing Page2](https://i.ibb.co/k5nV75p/landingpage2.png)
 
 Landing Page(Bottom section)
-![Landing Page3](https://ibb.co/3k5c9T0)
+![Landing Page3](https://i.ibb.co/BwHB5fg/landingpage3.png)
 
 Sign Up page
-![Sign up](https://ibb.co/tP9137t)
+![Sign up](https://i.ibb.co/TqsNrVS/signup.png)
 
 Login Page
-![Login page](https://ibb.co/nbQHHfw)
+![Login page](https://i.ibb.co/BtTXXjf/login.png)
 
 Clone the repository: git clone [https://github.com/your-username/project-name.git](https://github.com/maniRhombuz/unnatural-throat-9914.git)
 Navigate to the project directory: cd project-name
