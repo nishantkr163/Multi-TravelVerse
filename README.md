@@ -2,6 +2,11 @@
 
 Welcome to the unnatural-throat-9914!. This project is individual project. This project aims to allow users to buy packages of different location that they desire to visit. Whether you're a developer, a designer, or just someone interested in our work, we're excited to have you on board. Please read through this README to get familiar with the project and its setup.
 
+Tech Stacks Used
+1. HTML
+2. CSS
+3. JAVASCRIPT
+
 Table of Contents
 Project Overview
 Features
